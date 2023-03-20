@@ -2,9 +2,9 @@ import './assets/css/settings.css';
 import './assets/css/board.css';
 import './assets/css/reset.css';
 
-import CardGame from './src/components/CardGame';
+import BoardGame from './src/components/objects/BoardGame';
 
 const $root = document.querySelector("#root");
-const $htmlCardGame = CardGame();
+const $htmlBoardGame = BoardGame(3);
 
-$root.insertAdjacentHTML("beforeend", $htmlCardGame);
+$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
