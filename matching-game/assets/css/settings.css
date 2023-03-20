@@ -1,8 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
   /*colors*/
   --bg: #3A4042;
   --bg-edge: #FFFCEE;
@@ -12,13 +8,9 @@
   
   --card-bg-back: #051932;
   --card-bg-front: #F25A70;
+
+  --txt-player: #FFFCEE;
   /*colors*/
 
   background-color: var(--bg);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
