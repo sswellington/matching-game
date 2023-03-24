@@ -1,5 +1,4 @@
 :root {
-  /*colors*/
   --bg: #3A4042;
   --bg-edge: #FFFCEE;
   
@@ -10,7 +9,4 @@
   --card-bg-front: #F25A70;
 
   --txt-player: #FFFCEE;
-  /*colors*/
-
-  background-color: var(--bg);
 }

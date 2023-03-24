@@ -1,9 +1,3 @@
-.board-game {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 .card-game {
     align-items: center;
     background-color: var(--card-bg-front);

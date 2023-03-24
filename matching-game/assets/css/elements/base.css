@@ -1,8 +1,5 @@
 html, body {
-    font-weight: 400;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    font-synthesis: none;
+    background-color: var(--bg);
     height: 100%;
     line-height: 1.5;
     text-rendering: optimizeLegibility;

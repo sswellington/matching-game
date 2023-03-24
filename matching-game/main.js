@@ -1,9 +1,7 @@
-import './assets/css/reset.css';
-import './assets/css/settings.css';
-import './assets/css/base.css';
-
-import './assets/css/player.css';
-import './assets/css/board.css';
+import './assets/css/generic/reset.css';
+import './assets/css/settings/colors.css';
+import './assets/css/settings/font.css';
+import './assets/css/elements/base.css';
 
 import BoardGame from './src/components/objects/BoardGame';
 import ScoreBoard from './src/components/ScoreBoard';

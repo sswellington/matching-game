@@ -1,3 +1,6 @@
+import './style.css';
+
+
 function flipCard() {
     console.log("preciso trocar a imagem");
 }
