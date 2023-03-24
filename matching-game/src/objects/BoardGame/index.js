@@ -1,6 +1,6 @@
 import './style.css';
 
-import CardGame from "../../CardGame";
+import CardGame from "../../components/CardGame";
 
 
 function BoardGame(amountCards) {
