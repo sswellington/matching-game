@@ -1,6 +1,6 @@
 .card-game {
     align-items: center;
-    background-color: var(--card-bg-front);
+    background-color: var(--card-bg-back);
     border: 4px solid var(--bg-edge);
     display: flex;
     justify-content: center;

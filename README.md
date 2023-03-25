@@ -22,3 +22,4 @@ This is a web-based memory game where the player has to match pairs of cards wit
 ## References
 * [Curso de JS para React por Marco Bruno - Youtube](https://www.youtube.com/watch?v=Ajt9A-pNckI&list=PLirko8T4cEmzWZVn_ZKQbfDOuCnSZJ4va&index=1)
 * [Curso de JS para React por Marco Bruno - Github](https://github.com/marcobrunodev/curso-javascript-para-react)
+* [ A Complete Guide to Flexbox por Chris Coyier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
