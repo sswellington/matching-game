@@ -1,14 +1,13 @@
 import './style.css';
 
+const path = "./assets/img/"
+const iconPath = "logo-alura.png";
+const describe = "logo da alura para carta";
 
-function flipCard() {
-    console.log("preciso trocar a imagem");
-}
-
-function CardGame() {
+function CardGame(icon = iconPath, alt = describe) {
     return /*html*/ `
-        <article class="card-game" onclick="flipCard()">
-            <img src="./assets/img/logo-alura.png" alt="logo da alura para carta">
+        <article class="card-game">
+            <img src="${path}/${icon}" alt="${describe}">
         </article>
     `;
 } 
