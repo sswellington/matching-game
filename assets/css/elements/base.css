@@ -1,5 +1,5 @@
 html, body {
-    background-color: var(--bg);
+    background-color: var(--color-bg);
     height: 100%;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background-color: var(--board-bg);
+    background-color: var(--color-board-bg);
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;

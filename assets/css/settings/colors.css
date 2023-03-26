@@ -1,12 +1,12 @@
 :root {
-  --bg: #3A4042;
-  --bg-edge: #FFFCEE;
+  --color-bg: #3A4042;
+  --color-bg-edge: #FFFCEE;
   
-  --board-bg: #7C5E99;
-  --board-bg-status: #62C370;
+  --color-board-bg: #7C5E99;
+  --color-board-bg-status: #62C370;
   
-  --card-bg-back: #051932;
-  --card-bg-front: #F25A70;
+  --color-card-bg-back: #051932;
+  --color-card-bg-front: #F25A70;
 
-  --txt-player: #FFFCEE;
+  --color-txt-player: #FFFCEE;
 }
