@@ -1,27 +1,22 @@
 .card-front-back {
-    height: var(--size-height);
-    width: var(--size-width);
-
     cursor: pointer;
+    height: var(--size-card-height);
     position: relative;
-    transform: rotateY(60deg);
+    transform-origin: center right;
     transform-style: preserve-3d;
-    transition: transform 600ms cubic-bezier(0.39, 0, 0.565, 1.68) ;
+    transition: transform 800ms cubic-bezier(0.39, 0.575, 0.565, 1) ;
+    width: var(--size-card-width);
 }
 
 .card-front-back.-active {
-    transform: rotateY(180deg);
+    transform: translateX(-100%) rotateY(-180deg);
 }
 
-.card-front-back > .card {
-    backface-visibility: hidden;
-    position: absolute;
-}
 
 .card-front-back > .card.-back {
     transform: rotateY(180deg);
 }
 
-.card-front-back > .card.-back  > .card-game {
+.card-front-back > .card.-back > .card-game {
     background-color: var(--card-bg-front);
 }
