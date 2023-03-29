@@ -2,8 +2,8 @@ import './style.css';
 
 import CardGame from "../CardGame";
 
-const iconPath = "logo-html.png";
-const describe = "logo do html para carta";  
+const iconPath = "html.png";
+const describe = "logo do html";  
 
 function CardFrontBack(icon = iconPath, alt = describe) {
     window.cardFrontBack = {};
