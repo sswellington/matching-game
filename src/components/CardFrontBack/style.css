@@ -12,11 +12,9 @@
     transform: translateX(-100%) rotateY(-180deg);
 }
 
-
-.card-front-back > .card.-back {
-    transform: rotateY(180deg);
-}
-
+.card-front-back > .card.-front > .card-game,
 .card-front-back > .card.-back > .card-game {
-    background-color: var(--card-bg-front);
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: var(--color-card-bg-back);  
 }

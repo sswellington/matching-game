@@ -5,6 +5,7 @@ import CardGame from "../CardGame";
 const iconPath = "html.png";
 const describe = "logo do html";  
 
+
 function CardFrontBack(icon = iconPath, alt = describe) {
     window.cardFrontBack = {};
     window.cardFrontBack.handleClick = (event) => {
@@ -20,7 +21,7 @@ function CardFrontBack(icon = iconPath, alt = describe) {
                 ${CardGame()}
             </<div>
             <div class="card -back">
-                ${CardGame(iconPath, describe)}
+                ${CardGame(icon, alt)}
             </<div>
         </article>
     `;

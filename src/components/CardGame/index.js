@@ -1,13 +1,13 @@
 import './style.css';
 
 const path = "./assets/img/logo-"
-const alura = "alura.png";
-const describe = "logo da alura";
+const aluraIcon = "alura.png";
+const aluraAlt = "logo da alura";
 
-function CardGame(icon = alura, alt = describe) {
+function CardGame(icon = aluraIcon, alt = aluraAlt) {
     return /*html*/ `
         <article class="card-game">
-            <img src="${path}${icon}" alt="${describe}">
+            <img src="${path}${icon}" alt="${alt}">
         </article>
     `;
 } 
