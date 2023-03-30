@@ -1,8 +1,8 @@
 import './style.css';
 
 const path = "./assets/img/logo-"
-const aluraIcon = "alura.png";
-const aluraAlt = "logo da alura";
+const aluraIcon = "card.png";
+const aluraAlt = "estampa do cartão";
 
 function CardGame(icon = aluraIcon, alt = aluraAlt) {
     return /*html*/ `
