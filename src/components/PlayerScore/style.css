@@ -1,0 +1,29 @@
+.player-score {
+    background-color: var(--color-bg-edge);
+    border: 2px solid var(--color-card-bg-back);
+    box-sizing: border-box;
+    display: flex;
+    height: 20px;
+    gap: 1px;
+    padding: 1px;
+    width: 50px;
+}
+
+.player-score > .pointer {
+    background-color: var(--color-player-score-bg);
+    overflow: hidden;
+    text-indent: -999px;
+    width: 33%;
+}
+
+.player-score[data-points="1"] > .pointer:first-child {
+    background-color: var(--color-player-score-bg-status);
+}
+
+.player-score[data-points="2"] > .pointer:nth-child(-n+2) {
+    background-color: var(--color-player-score-bg-status);
+}
+
+.player-score[data-points="3"] > .pointer {
+    background-color: var(--color-player-score-bg-status);
+}

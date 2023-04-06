@@ -3,12 +3,13 @@
   --color-bg-edge: #FFFCEE;
   
   --color-board-bg: #7C5E99;
-  --color-board-bg-status: #62C370;
   
   --color-card-bg-back: #F25A70 ;
   --color-card-bg-front: #051932;
+  
+  --color-player-score-bg: #828282;
+  --color-player-score-bg-status: #62C370;
 
   --color-txt-player: #FFFCEE;
   --color-txt-vs-player: #F5D547;
-
 }
