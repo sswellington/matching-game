@@ -1,12 +1,12 @@
-const path = "./assets/img/"
-const icon = "icon-arrowDown.png";
-const alt = "Ícone de uma seta para baixo";
+import './style.css'
 
-function ArrowDown() {
+const alt = "Ícone de uma seta para baixo";
+const icon = "icon-arrowDown.png";
+const path = "./assets/img/"
+
+function ArrowDown(currentPlayer = 1) {
     return /*html*/ `
-        <article class="arrow-down">
-            <img src="${path}${icon}" alt="${alt}">
-        </article>
+        <img class="arrow-down" data-currentPlayer=${"currentPlayer"} src="${path}${icon}" alt="${alt}">
     `;
 }
 
