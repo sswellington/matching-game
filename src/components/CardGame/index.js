@@ -1,14 +1,14 @@
 import './style.css';
 
 const path = "./assets/img/logo-"
-const aluraIcon = "card.png";
-const aluraAlt = "estampa do cartão";
+const cardIcon = "card";
+const cardAlt = "estampa do cartão";
 
-function CardGame(icon = aluraIcon, alt = aluraAlt) {
+function CardGame(icon = cardIcon, alt = cardAlt) {
     return /*html*/ `
         <article class="card-game">
-            <img src="${path}${icon}" alt="${alt}">
-        </article>
+            <img src="${path}${icon}.png" alt="${alt}">
+            </article>
     `;
 } 
 

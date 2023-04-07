@@ -2,11 +2,11 @@ import './style.css';
 
 import CardGame from "../CardGame";
 
-const iconPath = "html.png";
-const describe = "logo do html";  
+const cardIcon = "html.png";
+const cardAlt = "logo do html";  
 
 
-function CardFrontBack(icon = iconPath, alt = describe) {
+function CardFrontBack(icon = cardIcon, alt = cardAlt) {
     window.cardFrontBack = {};
     window.cardFrontBack.handleClick = (event) => {
         const $origin = event.target;
